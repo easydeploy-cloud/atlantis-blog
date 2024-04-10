@@ -11,7 +11,7 @@ sudo systemctl start docker.service
 sudo systemctl status docker.service
 ```
 
-## TO Run Atlantis as Docker contianer
+## To Run Atlantis as Docker contianer
 
 ``` docker run -itd -p 4000:4141 --name atlantis atlantis server --automerge --autoplan-modules --gh-user=<github-account-username> --gh-token=<github-usr-access-token> --repo-allowlist=<list of allowed repos> ```
 
@@ -59,6 +59,6 @@ git push origin develop
 ``` atlantis plan -d . ``` => to get a plan of the terraform code
 ``` atlantis apply -d . ``` => to apply the terraform code
 
-For more reference for atlatnis commands: [Atlantis Commands]([https://www.genome.gov/](https://www.runatlantis.io/docs/using-atlantis.html)) 
+For more reference for Atlantis commands: [Atlantis Commands]([https://www.genome.gov/](https://www.runatlantis.io/docs/using-atlantis.html)
 
-To find more blogs about Terraaform: [Terraform Blogs](https://www.easydeploy.io/blog/category/terraform/)
+To find more blogs about Terraform: [Terraform Blogs](https://www.easydeploy.io/blog/category/terraform/)
