@@ -11,6 +11,10 @@ sudo systemctl start docker.service
 sudo systemctl status docker.service
 ```
 
+## To Build the Docker Image
+
+``` docker build -t atlantis . ```
+
 ## To Run Atlantis as Docker contianer
 
 ``` docker run -itd -p 4000:4141 --name atlantis atlantis server --automerge --autoplan-modules --gh-user=<github-account-username> --gh-token=<github-usr-access-token> --repo-allowlist=<list of allowed repos> ```
