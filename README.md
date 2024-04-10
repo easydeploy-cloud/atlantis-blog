@@ -56,9 +56,9 @@ git push origin develop
 ```
 
 ## Atlantis commands to reference
-``` atlantis plan -d . ``` &rarr to get a plan of the terraform code
+``` atlantis plan -d . ``` ⇨ to get a plan of the terraform code
 
-``` atlantis apply -d . ``` &rarr to apply the terraform code
+``` atlantis apply -d . ``` ⇨ to apply the terraform code
 
 For more reference for Atlantis commands: [Atlantis Commands]([https://www.genome.gov/](https://www.runatlantis.io/docs/using-atlantis.html)
 
