@@ -60,6 +60,6 @@ git push origin develop
 
 ``` atlantis apply -d . ``` ⇨ to apply the terraform code
 
-For more reference for Atlantis commands: [Atlantis Commands]([https://www.genome.gov/](https://www.runatlantis.io/docs/using-atlantis.html)
+For more reference for Atlantis commands: [Atlantis Commands](https://www.runatlantis.io/docs/using-atlantis.html)
 
 To find more blogs about Terraform: [Terraform Blogs](https://www.easydeploy.io/blog/category/terraform/)
