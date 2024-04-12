@@ -2,7 +2,7 @@
 ############ PROVIDER BLOCK ############
 provider "aws" {
   region     = "us-east-1"
-  profile    = "easydeploy"
+  profile    = "default"
 }
 ############ SAVING TF STATE FILE #########
 terraform {
@@ -10,7 +10,7 @@ terraform {
     bucket  = "test-atlantis-easydeploy"
     key     = "atlantis/terraform.tfstate"
     region  = "us-east-1"
-    profile = "easydeploy"
+    profile = "default"
   }
 }
 ################# EC2 INSTANCE CREATION #########
