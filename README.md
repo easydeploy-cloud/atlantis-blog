@@ -31,6 +31,10 @@ sudo systemctl status docker.service
 
 ``` docker exec -it atlantis /bin/sh ```
 
+## To add AWS credentials directly
+
+```aws configure``
+
 ## To edit the aws credentials file
 
 ```vi /home/atlantis/.aws/credentials ```
