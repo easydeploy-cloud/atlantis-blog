@@ -33,7 +33,7 @@ sudo systemctl status docker.service
 
 ## To add AWS credentials directly
 
-```aws configure``
+```aws configure```
 
 ## To edit the aws credentials file
 
