@@ -1,4 +1,4 @@
-# Atlantis integartion with GitHub
+# Atlantis integration with GitHub
 
 ## Commands to install Docker in Amazon Linux 3
 
